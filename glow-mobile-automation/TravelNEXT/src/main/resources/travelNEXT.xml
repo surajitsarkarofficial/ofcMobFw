@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TravelNEXT Mobile" configfailurepolicy="continue">
+	<test name="Login">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.login.LoginTests" />
+		</classes>
+	</test>
+	<test name="Hamburger">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.hamburger.HamburgerTests" />		
+		</classes>
+	</test> 	
+	<test name="Personal">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.personal.PersonalDetailsTests" />						
+		</classes>
+	</test> 
+	<test name="Passport">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.passport.PassportDetailsTests" />		
+		</classes>
+	</test>
+	<test name="Emergency Contacts">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.emergencyContacts.EmergencyContactsTests" />		
+		</classes>
+	</test>
+	<test name="Frequent Flyer Numbers">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.frequentFlyerNumbers.FrequentFlyerNumberTests" />		
+		</classes>
+	</test>	
+	<test name="Hotel Loyalty Program">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.hotelLoyaltyPrograms.HotelLoyaltyProgramsTests" />		
+		</classes>
+	</test>
+	<test name="About TravelNEXT">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.aboutTravelNEXT.AboutTravelNextDetailsTests" />			
+		</classes>
+	</test>	
+	<test name="Feedback">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.feedback.FeedbackTests" />		
+		</classes>
+	</test>
+	<test name="Itinerary">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.itinerary.ItineraryTests" />		
+		</classes>
+	</test>
+	<test name="Trip Card">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.tripCard.TripCardTests" />		
+		</classes>
+	</test>
+	<test name="Create Trip">
+		<classes>
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.createTrip.CostAllocationTests" />	
+			<class name="com.globant.qe.in.travelNEXT.mobile.tests.createTrip.PassengerTests" />
+		</classes>
+	</test>
+</suite>

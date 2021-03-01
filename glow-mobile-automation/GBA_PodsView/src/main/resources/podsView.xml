@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PodsView Mobile" configfailurepolicy="continue">
+	
+	<test name="Login">
+		<classes>
+			<class name="com.globant.qe.in.podsView.mobile.tests.login.LoginTests" />
+	</classes>
+	</test>
+	<test name="Accounts">
+		<classes>
+			<class name="com.globant.qe.in.podsView.mobile.tests.accounts.AccountsTests" />
+	</classes>
+	</test>
+	</suite>

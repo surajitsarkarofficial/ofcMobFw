@@ -1,0 +1,11 @@
+[
+	{
+		"testId": "TEST001",
+		"emergencyContactData": {
+			"fullName": "Amey",
+			"relationship": "colleague",
+			"phoneNo": "9876543210",
+			"address": "globant pune"
+		}
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"testId": "TEST001",
+		"signUpData": {
+			"firstName": "ayan",
+			"lastName": "modak",
+			"email": "xdfgss",
+			"password": "aayn12345678",
+			"countryCode": "IN",
+			"phoneNumber": "9970123456",
+			"birthMonth": "September",
+			"birthDay": "01",
+			"birthYear": "1990",
+			"userGender": "male"
+		}
+	},
+	{
+		"testId": "TEST002",
+		"signUpData": {
+			"firstName": "xyz",
+			"lastName": "abc",
+			"email": "xdfgdd",
+			"password": "qwed12345678",
+			"countryCode": "IN",
+			"phoneNumber": "9970123456",
+			"birthMonth": "September",
+			"birthDay": "01",
+			"birthYear": "1990",
+			"userGender": "male"
+		}
+	}
+]
